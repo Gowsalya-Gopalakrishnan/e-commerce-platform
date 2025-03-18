@@ -9,10 +9,10 @@ import { store } from './redux/store.js'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <HashRouter>
             <App />
 
-      </BrowserRouter>
+      </HashRouter>
     </Provider>
    
   </StrictMode>,
