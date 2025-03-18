@@ -1,0 +1,29 @@
+.navbar{
+    border: 2px solid #ddd;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* text-decoration: none; */
+}
+.navlinks{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+.navlinksbtn{
+    /* text-decoration: none; */
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: rgb(225, 198, 238);
+    border: none;
+    border-radius: 30px;
+}
+.navlinksbtn:hover{
+    background-color: lightpink;
+    /* color: rgb(225, 198, 238) ; */
+    color:red
+}

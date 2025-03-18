@@ -1,0 +1,18 @@
+.form{
+    background-color: lightgrey;
+    width: 30%;
+    margin: auto;
+
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+input [type="text"]{
+    padding:10px;
+    
+}
